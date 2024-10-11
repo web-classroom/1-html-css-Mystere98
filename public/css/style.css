@@ -31,7 +31,7 @@ body {
 main {
   flex: 1;
   overflow-y: auto;
-  padding: 86px;
+  padding: 86px 86px 0;
 }
 
 .title {
@@ -121,7 +121,6 @@ main {
 
 .queue-header {
   padding: 32px;
-  border-bottom: 1px solid var(--grey-200);
   z-index: 1;
 }
 
