@@ -116,28 +116,22 @@ main {
   display: grid;
   grid-template-rows: auto 1fr;
   height: 100%;
-  position: relative;
 }
 
 .queue-header {
   padding: 32px;
+  grid-row: 1;
+  grid-column: 1;
   z-index: 1;
 }
 
 .queue-content {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  grid-row: 1 / -1;
+  grid-column: 1;
   display: grid;
   place-items: center;
   padding: 32px;
   color: var(--grey-400);
-}
-
-.queue-content .body-2 {
-  text-align: center;
 }
 
 
